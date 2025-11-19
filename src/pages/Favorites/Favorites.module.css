@@ -1,0 +1,55 @@
+
+.favoritesPage {
+    background-color: #004116; 
+    color: white;
+    min-height: calc(100vh - 80px - 100px); 
+}
+
+.profileSection {
+    padding: 60px 80px 40px 80px; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profileContent {
+    display: flex;
+    align-items: center;
+}
+
+.userIconContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.userIcon {
+    height: 50px;
+    filter: invert(1);
+}
+
+.userInfo {
+    text-align: left;
+}
+
+.userName {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.userEmail {
+    font-size: 1rem;
+    color: #a0a0a0;
+    margin: 0;
+}
+
+.favoritesList {
+
+    padding-bottom: 50px;
+}
