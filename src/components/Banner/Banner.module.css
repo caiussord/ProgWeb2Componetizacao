@@ -1,6 +1,50 @@
 .banner {
-  background-color: #61dafb; 
-  padding: 50px 20px;
-  text-align: center;
-  color: #000;
+  background-image: 
+    linear-gradient(to bottom, transparent 90%, #004116 100%), 
+    var(--banner-bg);
+    
+  background-size: cover; 
+  background-position: center top;
+  background-repeat: no-repeat;
+  
+  height: 400px;
+  margin: 0; 
+  padding: 0 40px;
+  position: relative; 
+  
+  display: flex; 
+  align-items: flex-end; 
+  justify-content: flex-start;
+}
+
+.bannerContent {
+  width: 100%;
+  max-width: 500px; 
+  padding-bottom: 50px; 
+  text-align: left;
+}
+
+.watchButton {
+  background-color: #FFAB07;
+  color: black; 
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 0;
+}
+
+.watchButton:hover {
+  background-color: #ffc950; 
+}
+
+.arrow {
+  font-size: 1.5rem;
+  line-height: 1;
 }

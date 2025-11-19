@@ -1,16 +1,66 @@
-.cards {
-  padding: 20px;
-  text-align: center;
+.categorySection {
+  padding: 30px 0; 
+  background-color: #004116; 
+  color: #fff;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0; 
 }
+
+
+.categoryTitle {
+  font-size: 1.8rem;
+  margin: 0 40px 20px 40px; 
+  text-align: left;
+}
+
+.carouselWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%; 
+}
+
 .cardContainer {
   display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 15px;
+  gap: 30px; 
+  padding: 0 40px; 
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
-.card {
-  background-color: #f0f0f0;
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 8px;
+
+.cardContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 15px 10px;
+  cursor: pointer;
+  z-index: 20;
+  font-size: 20px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  height: 100px;
+}
+
+.scrollButton:hover {
+  opacity: 1;
+}
+
+.left {
+  left: 0; 
+  border-radius: 0 5px 5px 0;
+}
+
+.right {
+  right: 0;
+  border-radius: 5px 0 0 5px;
 }

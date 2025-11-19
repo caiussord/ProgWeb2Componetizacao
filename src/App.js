@@ -1,18 +1,19 @@
+
 import './App.css';
-import Header from './components/index.js'; 
-import Banner from './components/Banner';
-import Cards from './components/Container/Category/Cards/index.js';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './components/Header'; 
 import Footer from './components/Footer';
+import AppRoutes from './router.js'; 
 
 function App() {
+
   return (
-    // Fragment <> para agrupar todos os componentes
-    <>
+    <Router>
       <Header />
-      <Banner />
-      <Cards />
+      <AppRoutes /> 
+      
       <Footer />
-    </>
+    </Router>
   );
 }
 

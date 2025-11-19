@@ -1,4 +1,51 @@
+
 .header {
-  background-color: #000;
-  border-bottom: 2px solid #f44336;
+
+  background-color: #f7f7f7; 
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: none; 
+}
+.logoLink {
+    text-decoration: none; /* Remove o sublinhado do link */
+    cursor: pointer;
+}
+.logo {
+  height: 60px;
+
+  filter: none; 
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navLink {
+  color: #333; 
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+
+.userIconContainer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.userIcon {
+  height: 30px;
+  filter: invert(1);
 }
