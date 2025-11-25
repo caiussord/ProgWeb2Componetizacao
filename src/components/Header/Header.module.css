@@ -1,6 +1,28 @@
 
-.header {
+.searchContainer {
+    flex: 1; /* Ocupa o espaço disponível no meio */
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
 
+.searchInput {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border 0.3s;
+}
+
+.searchInput:focus {
+    border-color: #004116; /* Cor verde do seu tema */
+}
+
+.header {
   background-color: #f7f7f7; 
   padding: 10px 40px;
   display: flex;
@@ -9,6 +31,7 @@
   height: 80px;
   border-bottom: none; 
 }
+
 .logoLink {
     text-decoration: none; /* Remove o sublinhado do link */
     cursor: pointer;
