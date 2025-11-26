@@ -4,7 +4,7 @@ import styles from './Banner.module.css';
 const BANNER_IMAGE_URL = '/maxresdefault.svg'; 
 
 function Banner() {
-  return (
+  return (
     <section 
       className={styles.banner}
 

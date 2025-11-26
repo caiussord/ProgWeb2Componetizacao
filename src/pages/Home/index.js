@@ -4,7 +4,7 @@ import Category from '../../components/Container/Category/Cards';
 import { SearchContext } from '../../context/SearchContext';
 
 const classicMoviesData = [
-{id:25, posterUrl: '/image 18.svg', title: 'Cidade de Deus' }, 
+{id: 12, posterUrl: '/image 18.svg', title: 'Cidade de Deus' }, 
 { id: 26, posterUrl: '/image 19.svg', title: 'Olga' },
 {id:27, posterUrl: '/image 22.svg', title: 'Central do Brasil' }, 
 {id:28, posterUrl: '/image 29.svg', title: 'Xuxa Abracadrabra' }, 

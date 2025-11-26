@@ -37,6 +37,7 @@ function Category({ title, movies = DUMMY_MOVIES }) {
           {movies.map(movie => (
             <MovieCard 
               key={movie.id} 
+              id={movie.id}
               posterUrl={movie.posterUrl} 
               altText={movie.title} 
             />

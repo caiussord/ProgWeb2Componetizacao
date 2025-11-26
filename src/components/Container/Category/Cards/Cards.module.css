@@ -25,7 +25,9 @@
   display: flex;
   gap: 30px; 
   padding: 0 40px; 
-  overflow-x: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overscroll-behavior-x: none;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
   scrollbar-width: none;
