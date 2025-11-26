@@ -2,12 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'; 
 import Favorites from './pages/Favorites'; 
-
-const Faq = () => <div style={{padding: '50px', color: 'white', backgroundColor: '#004116'}}>
-    <h1>Página FAQ</h1>
-    <p>Conteúdo de Perguntas Frequentes.</p>
-</div>;
-
+import Watch from './pages/Watch';
+import Faq from './pages/Faq';
 
 function AppRoutes() {
   return (
@@ -17,6 +13,8 @@ function AppRoutes() {
       <Route path="/favoritos" element={<Favorites />} /> 
       
       <Route path="/faq" element={<Faq />} /> 
+
+      <Route path="/watch/:id" element={<Watch />} />
     </Routes>
   );
 }
